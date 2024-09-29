@@ -1,0 +1,1 @@
+import{az as t}from"./index-4f38f5ec.js";const o={getRoleList(e){return t.get("/roles/list",e)},createRole(e){return t.post("/roles/create",e)},editRole(e){return t.post("/roles/edit",e)},deleteRole(e){return t.post("/roles/delete",e)},updateRolePermission(e){return t.post("/roles/update/permission",e)},getAllRoleList(){return t.get("/roles/allList")}};export{o as a};
